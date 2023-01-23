@@ -1,0 +1,19 @@
+body {
+    --text-color: black;
+    --background-color: white;
+}
+
+body.dark {
+    --text-color: white;
+    --background-color: black;
+
+}
+
+h1 {
+    color: var(--text-color);
+}
+
+body {
+    background: var(--background-color);
+}
+
